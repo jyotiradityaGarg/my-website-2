@@ -1,0 +1,163 @@
+body{
+  margin:auto;
+
+
+}
+nav ul li a{
+  color: white;
+  text-decoration: underline 3px;
+  text-shadow: 2px;
+
+}
+.nav-wrapper{
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  padding: 3px;
+  width: 100%;
+  position: sticky;
+  top:0;
+  z-index: 1;
+}
+ .nav-list{
+   color: white;
+   list-style: none;
+   padding: 0;
+   display: flex;
+   align-items: stretch;
+   justify-content: space-around;
+   width: 100%;
+
+ }
+ /* .nav-item{
+   color: white;
+     text-decoration: underline 3px;
+ } */
+
+ /* .nav-list li{
+   display: inline;
+   margin: 0px;
+
+
+ }
+
+.nav-list li a:visited{
+  background-color:darkviolet;
+
+}
+.nav-list li a:hover{
+  background-color: darkorange;
+
+
+}
+.nav-list li a:active{
+  background-color:aqua;
+
+
+} */
+#welcome-line{
+position: absolute;
+top: 32%;
+left: 25%;
+color: white;
+font-size: 3vw;
+animation-name: welLine;
+animation-duration: 5s;
+animation-fill-mode: none;
+animation-timing-function:linear;
+
+}
+
+
+
+@keyframes welLine {
+  0% {
+    top: 0;
+    left: 25;
+
+  }
+  100% {
+    top: 37%;
+    left: 25%;
+  }
+  /* @keyframes welLine {
+    0% {
+      position: absolute;
+      top: 0%;
+      left: 0%;
+
+    }
+    10% {
+      position: absolute;
+      top: 0%;
+      right: 0%;
+    }
+    40% {
+      position: absolute;
+      bottom: 0%;
+      right: 0%;
+    }
+    75% {
+      position: absolute;
+      bottom: : 0%;
+      left: 0%;
+    }
+    100% {
+      position: absolute;
+      top: 0%;
+      left: 0%;
+
+    } */
+
+
+}
+#vi-logo{
+  background-color: black;
+  color: white;
+  padding: 10PX;
+  border: solid black 2px;
+  position: absolute;
+  top: 115%;
+  left: 22%;
+  font-size: 20PX;
+}
+#vi-img{
+  position: absolute;
+  top: 85%;
+  left: 0;
+}
+#iitrm-logo{
+  background-color: black;
+  color: white;
+  padding: 10PX;
+  border: solid black 2px;
+  position: absolute;
+  top: 66%;
+  left: 10%;
+  font-size: 20PX;
+}
+.audio{
+  display: flex;
+  position: fixed;
+  bottom: 2vh;
+  left: 0;
+}
+.play-music{
+  background-color:RED;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  bottom: 10vh;
+  left: 1vw;
+}
+.color_white{
+  color: white;
+
+}
+.left{
+  position: absolute;
+  left: 5vw;
+}
+.play-music{
+  border-radius: 50px;
+}
